@@ -17,18 +17,135 @@
 <body>
    <header>
     <!--banner section starts here-->
-    <div class="parents_div border 2 border-red-500 min-h-[200px] container mx-auto">
+    <div class="parents_div flex flex-col md:flex-row justify-between items-center min-h-[200px] container mx-auto">
     <div class="div_left">
-        <h1>It's good 
-tea time at The Tea House</h1>
-<p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-<button>Explore More</button>
+        <h1 class="text-[70px] font-bold">It's good <br/>
+tea time at The <br/>Tea House</h1>
+<p class="text-[18px] my-10">Tea and Botanical Solutions Supplier Give Optimum<br/> Satisfaction To Your Taste Buds.</p>
+<button class="w-[200px] text-xl text-white h-[64px] bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg">Explore More</span><i class="fa-solid fa-arrow-right -rotate-45"></i></button>
         </div>
-        <div class="div_right border 2 border-green-500">
-            <img src="" alt="">
+        <div class="div_right">
+            <img src="./images/banner.png" class="relative top-[50px]" alt="">
+            <div class="bg-white ml-[50px] w-[255px] h-[100px] flex justify-between items-center rounded-lg shadow-lg absolute">
+                <div class="div-img ml-10">
+                    <span class="text-4xl"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="div-content">
+                    <p class="text-4xl bold">5.00</p>
+                    <p>trust pilot ratings</p>
+                </div>
+
+            </div>
         </div>
         </div>
 <!--banner section ends here-->
-   </header> 
+   </header>
+   <!--fetures starts here-->
+<section class="max-w-[1170px] mx-auto min-h-[200px] mt-[100px]">
+    <h1 class="text-4xl text-center">Our Featured Products</h1>
+    <p class="my-10 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+    <div class="parent_div text-center grid grid-cols-1 md: grid-cols-4 gap-4">
+<div class="div_card min-h-[300px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4] p-4 rounded-lg">
+<img src="./images/tea-1.png" class="mx-auto block"alt="">
+<h2 class="text-2xl font-bold">Milk Tea</h2>
+<p class="">Cremer could be replace by Fresh milk</p>
+</div>
+<div class="div_card min-h-[300px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4] p-4 rounded-lg">
+<img src="./images/tea-2.png" class="mx-auto block"alt="">
+<h2 class="text-2xl font-bold">Black Tea</h2>
+<p class="">Cremer could be replace by Fresh milk</p>
+</div>
+<div class="div_card min-h-[300px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4] p-4 rounded-lg">
+<img src="./images/tea-3.png" class="mx-auto block"alt="">
+<h2 class="text-2xl font-bold">Lemon Tea</h2>
+<p class="">Cremer could be replace by Fresh milk</p>
+</div>
+<div class="div_card min-h-[300px] bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f4] p-4 rounded-lg">
+<img src="./images/tea-4.png" class="mx-auto block"alt="">
+<h2 class="text-2xl font-bold">Green Tea</h2>
+<p class="">Cremer could be replace by Fresh milk</p>
+</div>
+    </div>
+</section>
+   <!--fetures ends here-->
+   <!--Freshly tea starts here-->
+   <main>
+    <div class="freshtea_parent min-h-[600px] mx-auto mt-[100px] flex gap-4 p-4">
+        <div class="freshtea_left w-1/2 grid grid-cols-2 grid-rows-3 gap-4">
+<div class="bg-gradient-to-r from-[#ff0000] to-[#ff8938] opacity-10"></div>
+<div class="row-span-2 bg-[#06a6231a] flex justify-center items-center">
+    <img src="./images/fresh-1.png" alt="">
+</div>
+<div class="row-span-2 bg-[#5776391a] flex justify-center items-center">
+    <img src="./images/fresh-2.png" alt="">
+</div>
+<div class="bg-gradient-to- from-[#d9d9d9] to-[#ffff00]"></div>
+        </div>
+        <div class="freshtea_right w-1/2">
+<h2 class="font-extrabold text-3xl">Great Tea, Freshly<br/> Presented</h2>
+<br/>
+<p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+<br/>
+<h4 class="font-semibold text-xl">Unique Taste</h4>
+<br/>
+<p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+<br/>
+<h4 class="font-semibold text-xl">Premium Quality</h4>
+<br/>
+<p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+
+    </div>
+   </main>
+   <!--Freshly tea ends here-->
+   <!--super client starts here-->
+<div class="client_parent border-2 border-red-500 max-w-[1170px] mx-auto min-h-[300px] flex bg-gradient-to-r from-[#ff8938] to-[#ff0000] p-4">
+    <div class="client_left border-2 border-green-500 h-[600px] w-1/2 flex justify-center items-center">
+       <div class="text-center">
+        <h2 class="text-4xl font-bold text-white">Meet Our Super <br/> Clients</h2>
+        <p class="mt-10 mb-5 text-white">There are many variations of passages of Lorem Ipsum available, 
+            but the majority have suffered alteration in some form,
+             by injected humour, 
+             or randomised words which don't look even slightly believable.</p>
+            <button class="w-[139px] h-[56px] bg-white rounded-lg text-[#ff8938] text-xl font-bold">Show All</button> 
+       </div> 
+    </div>
+    <div class="client_right relative h-[600px] w-1/2">
+    <div class="customer_review absolute top-[25%] left-[5%] h-[200px] w-[70%] bg-white p-10 rounded-lg z-10">
+        <p>We are providing the best and suitable home 
+            insurance services for the people who are interested to treatment</p>
+            <h4 class="font-bold">Ilham Yuda</h4>
+            <p>Businessman</p>
+         <div class="absolute -top-[20px] -left-[20px]  rounded-full p-1 bg-white">
+<img src="./images/client.png" alt="">
+         </div> 
+        <img src="./images/circles.png" alt="" class="absolute left-[80%] top-[85%]">
+            
+    </div>
+    <div class="customer_review absolute top-[5%] left-[15%] h-[200px] w-[70%] bg-white p-10 rounded-lg opacity-20">
+        <p>We are providing the best and suitable home 
+            insurance services for the people who are interested to treatment</p>
+            <h4 class="font-bold">Ilham Yuda</h4>
+            <p>Businessman</p>
+         <div class="absolute -top-[20px] -left-[20px]  rounded-full p-1 bg-white">
+<img src="./images/client.png" alt="">
+         </div> 
+        
+            
+    </div>
+     <div class="customer_review absolute top-[50%] left-[15%] h-[200px] w-[70%] bg-white p-10 rounded-lg opacity-20">
+        <p>We are providing the best and suitable home 
+            insurance services for the people who are interested to treatment</p>
+            <h4 class="font-bold">Ilham Yuda</h4>
+            <p>Businessman</p>
+         <div class="absolute -top-[20px] -left-[20px]  rounded-full p-1 bg-white">
+<img src="./images/client.png" alt="">
+         </div> 
+        
+            
+    </div>
+</div>
+</div>
+   <!--super client ends here-->
 </body>
 </html>
